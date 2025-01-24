@@ -1,0 +1,144 @@
+.CsvFile-upload-input {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.CsvFile-upload-input button {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 2rem;
+  border: none;
+  background: #000;
+  color: #fff;
+  border-radius: 8px;
+}
+.CsvFile-upload-content-os {
+  padding-bottom: 2rem;
+}
+.CsvFile-mapping-select-col-os-1 select {
+  width: 100%;
+  padding: 12px;
+  border-color: #d9d9d9;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+.CsvFile-mapping-select-col-os-1 select:last-child {
+  margin-bottom: 0;
+}
+.CsvFile-mapping-select-col-os-1 {
+  width: 40%;
+}
+.CsvFile-mapping-select-row-os {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* max-height: 400px;
+    overflow-y: scroll; */
+}
+.CsvFile-data-table-os {
+  width: 100%;
+  overflow-x: auto;
+  /* max-height: 350px; */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  background: #fff;
+}
+.CsvFile-mapping-select-col-os-1 h5 {
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 400;
+  padding-bottom: 8px;
+}
+.CsvFile-mapping-data-os {
+  padding-bottom: 2rem;
+}
+.CsvFile-data-table-os table {
+  width: 100%;
+  text-align: left;
+}
+.CsvFile-data-table-os tr th {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  font-weight: 500;
+}
+.CsvFile-data-table-os tr td {
+  padding: 1rem;
+}
+.CsvFile-data-table-os thead tr {
+  background: #cecece;
+}
+.CsvFile-data-table-os tbody tr:nth-child(odd) {
+  background: #ebebeb;
+}
+.success-message-os {
+  color: green;
+}
+.CsvFile-submit-btn-os {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.CsvFile-upload-note-os span {
+  font-weight: 600;
+}
+.CsvFile-upload-note-os {
+  padding-bottom: 1.5rem;
+}
+
+/* Loader Css  Style */
+.progress-bar {
+  width: 50%;
+  margin: 0 auto;
+  height: 20px;
+  background-color: #ccc;
+  border: 1px solid #333;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  background-color: #ad243b;
+  transition: width 0.3s ease-in-out;
+}
+.format-file-download-btn-os button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  padding: 8px 1rem;
+  border-radius: 20px;
+  background: #fff;
+  border: 1px solid #ad243b;
+  color: #ad243b;
+  transition: 0.3s;
+}
+.format-file-download-btn-os button:hover {
+  background: #ad243b;
+  border: 1px solid #ad243b;
+  color: #fff;
+  transition: 0.3s;
+}
+.CsvFile-content-row-os {
+  display: flex;
+  gap: 1rem 1.5rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 767px) {
+  .CsvFile-mapping-select-col-os-1 {
+    width: 48%;
+  }
+  .CsvFile-upload-note-os {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .format-file-download-btn-os button {
+    font-size: 15px;
+  }
+}

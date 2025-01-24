@@ -1,0 +1,75 @@
+.container-os {
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.default-section-os {
+  padding-bottom: 2rem;
+}
+.default-padding-os {
+  padding-bottom: 2rem;
+}
+button {
+  cursor: pointer;
+}
+:disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+input::placeholder {
+  color: #acacac;
+}
+.error-message-os {
+  color: red;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.pb-1 {
+  padding-bottom: 8px;
+}
+.pb-2 {
+  padding-bottom: 12px;
+}
+.pb-3 {
+  padding-bottom: 1rem;
+}
+.pb-4 {
+  padding-bottom: 1.5rem;
+}
+.pt-1 {
+  padding-top: 8px;
+}
+.pt-2 {
+  padding-top: 12px;
+}
+.pt-3 {
+  padding-top: 1rem;
+}
+.pt-4 {
+  padding-top: 1.5rem;
+}
+.text-center {
+  text-align: center;
+}
+
+.default-heading-bar-os {
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #acacac;
+}
+
+@media screen and (max-width: 767px) {
+  .container-os {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .default-heading-bar-os {
+    margin-bottom: 1.5rem;
+  }
+}

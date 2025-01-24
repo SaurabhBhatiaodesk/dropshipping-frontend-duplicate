@@ -1,0 +1,70 @@
+.Navbar-section-os {
+  background: #1d1d1d;
+  height: 100%;
+  padding: 2rem 1rem;
+}
+.Navbar-col-os-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 3rem;
+}
+.Navbar-col-os-1 a span {
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
+.Navbar-col-os-1 a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.Navbar-col-os-2 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+/* .profile-name-os {
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+.Navbar-menu-heading-os {
+    font-size: 16px;
+    line-height: 20px;
+    color: #595959;
+    padding-bottom: 8px;
+} */
+.Navbar-col-os-3 a,
+.Navbar-col-os-3 button {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+.Navbar-col-os-3 a.active,
+.Navbar-col-os-3 button.active {
+  background: #ad243b;
+}
+.Navbar-col-os-3 a span,
+.Navbar-col-os-3 button span {
+  display: flex;
+  min-width: 40px;
+}
+@media screen and (max-width: 767px) {
+  .Navbar-col-os-1 {
+    padding-bottom: 2rem;
+    justify-content: flex-start;
+  }
+}

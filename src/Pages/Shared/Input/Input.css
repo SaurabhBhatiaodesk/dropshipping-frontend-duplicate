@@ -1,0 +1,42 @@
+.Input-os {
+  position: relative;
+}
+.Input-os input {
+  width: 100%;
+  height: auto;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 12px 1rem;
+  border: 1.5px solid #ddd;
+  border-radius: 12px;
+}
+.Input-os label {
+  font-size: 16px;
+  line-height: 20px;
+  color: #695c5c;
+  padding-bottom: 8px;
+  display: flex;
+}
+
+/* .Input-os:before {
+content: "";
+display: inline-block;
+position: absolute;
+width: 0px;
+height: 2px;
+background: #a4243b;
+bottom: 0;
+left: 50%;
+transform: translateX(-50%);
+transition: all 0.4s ease;
+}*/
+
+.Input-os label span {
+  color: red;
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  .Input-os input {
+    font-size: 15px;
+  }
+}

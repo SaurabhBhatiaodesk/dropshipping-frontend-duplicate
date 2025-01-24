@@ -1,0 +1,99 @@
+/* custom css */
+.login-form-os {
+  background-color: white;
+  width: 100%;
+  max-width: 600px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  margin: 4rem auto 0;
+}
+.input-col-os {
+  padding-bottom: 2rem;
+}
+.signup-link-os h1 {
+  text-align: center;
+  color: #a4243b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 500;
+  padding-bottom: 1.5rem;
+}
+.signup-link-os p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #c6b2c6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.signup-link-os p a {
+  font-size: 16px;
+  line-height: 20px;
+  color: #ad243b;
+}
+.signup-link-os {
+  padding-top: 1rem;
+}
+.login-form-os h1 {
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 500;
+  text-align: center;
+}
+.login-form-heading-os a {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4px;
+}
+.login-form-heading-os {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.login-form-os button {
+  background: #a4243b;
+  color: #fff;
+  padding: 1rem 0;
+  font-size: 20px;
+  line-height: 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+  border: none;
+  max-width: 40%;
+  width: 100%;
+  margin: 0 auto;
+}
+.login-form-os button:hover {
+  background: #4b111b;
+  transition: 0.3s;
+}
+/* .Signup-page-os {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+} */
+
+@media screen and (max-width: 767px) {
+  .login-form-os {
+    padding: 1rem;
+    margin: 2rem auto 0;
+  }
+  .input-col-os {
+    padding-bottom: 1.5rem;
+  }
+  .login-form-os button {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

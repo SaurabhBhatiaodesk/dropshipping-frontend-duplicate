@@ -1,0 +1,19 @@
+.Installation-page-os {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Installation-page-os h1 {
+    max-height: 500px;
+    max-width: 800px;
+    width: 100%;
+    height: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 21px;
+    box-shadow: 0 4px 30px rgba(0,0,0,.1);
+    padding: 2rem;
+}

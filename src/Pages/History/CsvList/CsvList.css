@@ -1,0 +1,38 @@
+.history-table-os h4 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.history-table-os p {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.history-table-os {
+  /* font-family: arial, sans-serif; */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.history-table-os td,
+.history-table-os th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.history-table-os tr:nth-child(even) {
+  /* background-color: #dddddd; */
+}
+
+.history-content-os {
+  overflow-x: auto;
+}
+@media screen and (max-width: 767px) {
+  .history-table-os p {
+    font-size: 15px;
+  }
+  .history-table-os h4 {
+    font-size: 15px;
+  }
+}
